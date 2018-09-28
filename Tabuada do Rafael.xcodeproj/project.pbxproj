@@ -1,0 +1,594 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5C13093E2138BB6000971261 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C13093D2138BB6000971261 /* AppDelegate.swift */; };
+		5C1309402138BB6000971261 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C13093F2138BB6000971261 /* ViewController.swift */; };
+		5C1309432138BB6000971261 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5C1309412138BB6000971261 /* Main.storyboard */; };
+		5C1309452138BB6100971261 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5C1309442138BB6100971261 /* Assets.xcassets */; };
+		5C1309482138BB6100971261 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5C1309462138BB6100971261 /* LaunchScreen.storyboard */; };
+		5C1309532138BB6100971261 /* Tabuada_do_RafaelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C1309522138BB6100971261 /* Tabuada_do_RafaelTests.swift */; };
+		5C13095E2138BB6100971261 /* Tabuada_do_RafaelUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C13095D2138BB6100971261 /* Tabuada_do_RafaelUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5C13094F2138BB6100971261 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5C1309322138BB6000971261 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5C1309392138BB6000971261;
+			remoteInfo = "Tabuada do Rafael";
+		};
+		5C13095A2138BB6100971261 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5C1309322138BB6000971261 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5C1309392138BB6000971261;
+			remoteInfo = "Tabuada do Rafael";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5C13093A2138BB6000971261 /* Tabuada do Rafael.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Tabuada do Rafael.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C13093D2138BB6000971261 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5C13093F2138BB6000971261 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5C1309422138BB6000971261 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5C1309442138BB6100971261 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5C1309472138BB6100971261 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5C1309492138BB6100971261 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5C13094E2138BB6100971261 /* Tabuada do RafaelTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tabuada do RafaelTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C1309522138BB6100971261 /* Tabuada_do_RafaelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tabuada_do_RafaelTests.swift; sourceTree = "<group>"; };
+		5C1309542138BB6100971261 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5C1309592138BB6100971261 /* Tabuada do RafaelUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tabuada do RafaelUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C13095D2138BB6100971261 /* Tabuada_do_RafaelUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tabuada_do_RafaelUITests.swift; sourceTree = "<group>"; };
+		5C13095F2138BB6100971261 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5C1309372138BB6000971261 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C13094B2138BB6100971261 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C1309562138BB6100971261 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5C1309312138BB6000971261 = {
+			isa = PBXGroup;
+			children = (
+				5C13093C2138BB6000971261 /* Tabuada do Rafael */,
+				5C1309512138BB6100971261 /* Tabuada do RafaelTests */,
+				5C13095C2138BB6100971261 /* Tabuada do RafaelUITests */,
+				5C13093B2138BB6000971261 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5C13093B2138BB6000971261 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5C13093A2138BB6000971261 /* Tabuada do Rafael.app */,
+				5C13094E2138BB6100971261 /* Tabuada do RafaelTests.xctest */,
+				5C1309592138BB6100971261 /* Tabuada do RafaelUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5C13093C2138BB6000971261 /* Tabuada do Rafael */ = {
+			isa = PBXGroup;
+			children = (
+				5C13093D2138BB6000971261 /* AppDelegate.swift */,
+				5C13093F2138BB6000971261 /* ViewController.swift */,
+				5C1309412138BB6000971261 /* Main.storyboard */,
+				5C1309442138BB6100971261 /* Assets.xcassets */,
+				5C1309462138BB6100971261 /* LaunchScreen.storyboard */,
+				5C1309492138BB6100971261 /* Info.plist */,
+			);
+			path = "Tabuada do Rafael";
+			sourceTree = "<group>";
+		};
+		5C1309512138BB6100971261 /* Tabuada do RafaelTests */ = {
+			isa = PBXGroup;
+			children = (
+				5C1309522138BB6100971261 /* Tabuada_do_RafaelTests.swift */,
+				5C1309542138BB6100971261 /* Info.plist */,
+			);
+			path = "Tabuada do RafaelTests";
+			sourceTree = "<group>";
+		};
+		5C13095C2138BB6100971261 /* Tabuada do RafaelUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5C13095D2138BB6100971261 /* Tabuada_do_RafaelUITests.swift */,
+				5C13095F2138BB6100971261 /* Info.plist */,
+			);
+			path = "Tabuada do RafaelUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5C1309392138BB6000971261 /* Tabuada do Rafael */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5C1309622138BB6100971261 /* Build configuration list for PBXNativeTarget "Tabuada do Rafael" */;
+			buildPhases = (
+				5C1309362138BB6000971261 /* Sources */,
+				5C1309372138BB6000971261 /* Frameworks */,
+				5C1309382138BB6000971261 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Tabuada do Rafael";
+			productName = "Tabuada do Rafael";
+			productReference = 5C13093A2138BB6000971261 /* Tabuada do Rafael.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5C13094D2138BB6100971261 /* Tabuada do RafaelTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5C1309652138BB6100971261 /* Build configuration list for PBXNativeTarget "Tabuada do RafaelTests" */;
+			buildPhases = (
+				5C13094A2138BB6100971261 /* Sources */,
+				5C13094B2138BB6100971261 /* Frameworks */,
+				5C13094C2138BB6100971261 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5C1309502138BB6100971261 /* PBXTargetDependency */,
+			);
+			name = "Tabuada do RafaelTests";
+			productName = "Tabuada do RafaelTests";
+			productReference = 5C13094E2138BB6100971261 /* Tabuada do RafaelTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5C1309582138BB6100971261 /* Tabuada do RafaelUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5C1309682138BB6100971261 /* Build configuration list for PBXNativeTarget "Tabuada do RafaelUITests" */;
+			buildPhases = (
+				5C1309552138BB6100971261 /* Sources */,
+				5C1309562138BB6100971261 /* Frameworks */,
+				5C1309572138BB6100971261 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5C13095B2138BB6100971261 /* PBXTargetDependency */,
+			);
+			name = "Tabuada do RafaelUITests";
+			productName = "Tabuada do RafaelUITests";
+			productReference = 5C1309592138BB6100971261 /* Tabuada do RafaelUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5C1309322138BB6000971261 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "Denis Nascimento";
+				TargetAttributes = {
+					5C1309392138BB6000971261 = {
+						CreatedOnToolsVersion = 9.4.1;
+						LastSwiftMigration = 1000;
+					};
+					5C13094D2138BB6100971261 = {
+						CreatedOnToolsVersion = 9.4.1;
+						LastSwiftMigration = 1000;
+						TestTargetID = 5C1309392138BB6000971261;
+					};
+					5C1309582138BB6100971261 = {
+						CreatedOnToolsVersion = 9.4.1;
+						LastSwiftMigration = 1000;
+						TestTargetID = 5C1309392138BB6000971261;
+					};
+				};
+			};
+			buildConfigurationList = 5C1309352138BB6000971261 /* Build configuration list for PBXProject "Tabuada do Rafael" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5C1309312138BB6000971261;
+			productRefGroup = 5C13093B2138BB6000971261 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5C1309392138BB6000971261 /* Tabuada do Rafael */,
+				5C13094D2138BB6100971261 /* Tabuada do RafaelTests */,
+				5C1309582138BB6100971261 /* Tabuada do RafaelUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5C1309382138BB6000971261 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C1309482138BB6100971261 /* LaunchScreen.storyboard in Resources */,
+				5C1309452138BB6100971261 /* Assets.xcassets in Resources */,
+				5C1309432138BB6000971261 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C13094C2138BB6100971261 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C1309572138BB6100971261 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5C1309362138BB6000971261 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C1309402138BB6000971261 /* ViewController.swift in Sources */,
+				5C13093E2138BB6000971261 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C13094A2138BB6100971261 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C1309532138BB6100971261 /* Tabuada_do_RafaelTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C1309552138BB6100971261 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C13095E2138BB6100971261 /* Tabuada_do_RafaelUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5C1309502138BB6100971261 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5C1309392138BB6000971261 /* Tabuada do Rafael */;
+			targetProxy = 5C13094F2138BB6100971261 /* PBXContainerItemProxy */;
+		};
+		5C13095B2138BB6100971261 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5C1309392138BB6000971261 /* Tabuada do Rafael */;
+			targetProxy = 5C13095A2138BB6100971261 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5C1309412138BB6000971261 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5C1309422138BB6000971261 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5C1309462138BB6100971261 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5C1309472138BB6100971261 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5C1309602138BB6100971261 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5C1309612138BB6100971261 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5C1309632138BB6100971261 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4VCXQ8P3R3;
+				INFOPLIST_FILE = "Tabuada do Rafael/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.fdenisnascimento.Tabuada-do-Rafael";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5C1309642138BB6100971261 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4VCXQ8P3R3;
+				INFOPLIST_FILE = "Tabuada do Rafael/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.fdenisnascimento.Tabuada-do-Rafael";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		5C1309662138BB6100971261 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4VCXQ8P3R3;
+				INFOPLIST_FILE = "Tabuada do RafaelTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.fdenisnascimento.Tabuada-do-RafaelTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tabuada do Rafael.app/Tabuada do Rafael";
+			};
+			name = Debug;
+		};
+		5C1309672138BB6100971261 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4VCXQ8P3R3;
+				INFOPLIST_FILE = "Tabuada do RafaelTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.fdenisnascimento.Tabuada-do-RafaelTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tabuada do Rafael.app/Tabuada do Rafael";
+			};
+			name = Release;
+		};
+		5C1309692138BB6100971261 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4VCXQ8P3R3;
+				INFOPLIST_FILE = "Tabuada do RafaelUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.fdenisnascimento.Tabuada-do-RafaelUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Tabuada do Rafael";
+			};
+			name = Debug;
+		};
+		5C13096A2138BB6100971261 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4VCXQ8P3R3;
+				INFOPLIST_FILE = "Tabuada do RafaelUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.fdenisnascimento.Tabuada-do-RafaelUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Tabuada do Rafael";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5C1309352138BB6000971261 /* Build configuration list for PBXProject "Tabuada do Rafael" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5C1309602138BB6100971261 /* Debug */,
+				5C1309612138BB6100971261 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5C1309622138BB6100971261 /* Build configuration list for PBXNativeTarget "Tabuada do Rafael" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5C1309632138BB6100971261 /* Debug */,
+				5C1309642138BB6100971261 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5C1309652138BB6100971261 /* Build configuration list for PBXNativeTarget "Tabuada do RafaelTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5C1309662138BB6100971261 /* Debug */,
+				5C1309672138BB6100971261 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5C1309682138BB6100971261 /* Build configuration list for PBXNativeTarget "Tabuada do RafaelUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5C1309692138BB6100971261 /* Debug */,
+				5C13096A2138BB6100971261 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5C1309322138BB6000971261 /* Project object */;
+}
